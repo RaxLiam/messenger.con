@@ -1,0 +1,203 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.momdiv {
+  margin: 0 auto;
+  width: 100%
+}
+
+
+.menu{
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  background-color: #FAFAFA;
+  height: 40px;
+  border-bottom: 1px solid lightgrey;
+  opacity: 0.8;
+  flex-direction: row;
+  align-items: center
+}
+
+.container{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 25px
+}
+
+.buttom{
+  width: 100%;
+  background-color: #FAFAFA;
+  padding: 40px 0px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 20px;
+}
+
+.logo{
+  widows: 25px;
+  height: 25px;
+}
+
+.link{
+  text-decoration: none;
+  font-size: 12px;
+  color: inherit;
+  margin-left: 10px
+}
+
+.menuicon {
+  display: none;
+}
+
+.link:hover {
+  border-bottom-style: solid
+}
+
+.menuicon {
+  width: 10%
+}
+
+.left{
+  display: inline-block;
+  width: 50%;
+  
+}
+
+.right{
+  display: inline-block;
+  width: 50%;
+}
+
+.appstore{
+  width: 20%;
+  margin-top: 25px;
+}
+
+.playstore{
+  width: 20%;
+}
+
+.picsart{
+  width: 100%;
+  
+}
+
+.names {
+ 
+}
+
+.inputs {
+  display: inline-block;
+  margin-top: 7px;
+  background-color: #F6F6F6;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 7px;
+  font-size: 15px;
+  outline-color: skyblue;
+}
+
+button {
+  margin-top: 13px;
+  display: inline-block;
+  background-color: #0084FF;
+  border-color: #0084FF;
+  color: white;
+  border-radius: 24px;
+  padding: 7px 10px;
+  font-size: 15px;
+  border: none
+}
+
+span {
+  font-size: 18px;
+  display: inline-block;
+  margin-bottom: 10px
+}
+
+.cb {
+  display: inline-block;
+  width: 18px;
+  outline: none;
+}
+
+.fyp {
+  font-size: 15px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.fyp:hover {
+  text-decoration: underline
+}
+
+.cbspan {
+  margin-top: 15px;
+  
+}
+
+@media (max-width: 450px) {
+  .link {
+    display: none
+  }
+  
+  .menuicon {
+    display: block;
+  }
+  
+  .left {
+    width: 100%
+    
+  }
+  
+  .leftcontent {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center
+  }
+  
+  right {
+    width: 100%;
+    overflow: hidden;
+    
+  }
+  
+  .playstore {
+    width: 30%
+  }
+  
+  .appstore {
+    width: 30%
+  }
+  
+  .picsart {
+    width: 200%
+  }
+  
+  .logo {
+    margin: 0px 10px;
+  }
+  
+  .menu {
+    position: sticky;
+    top: 0;
+  }
+  
+}
+
+@media (max-width: 375px) {
+  .leftcontent {
+    width: 95%;
+  }
+}
